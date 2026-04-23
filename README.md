@@ -15,7 +15,7 @@ A responsive movie search app using OMDb API. Search for any movie, view details
 - JavaScript ES6 (async/await, fetch, localStorage, event delegation)
 
 ## Live Demo
-[Click here](https://AbdulBasit409.github.io/movie-search-app/)
+[Click here](https://AbdulBasit409.github.io/Movie-Search-App/)
 
 ## API
 [OMDb API](http://www.omdbapi.com/)
