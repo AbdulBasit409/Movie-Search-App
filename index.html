@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Movie Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <h1>🎬 Movie Explorer</h1>
+      <div class="favorite-badge">
+        ❤️ <span id="favCount">0</span> favorites
+      </div>
+    </div>
+    <div class="search-area">
+      <input type="text" id="searchInput" placeholder="Search for a movie... (e.g., Titanic)" autocomplete="off">
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="resultsGrid" class="results-grid"></div>
+  </main>
+
+  
+  <div id="movieModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
